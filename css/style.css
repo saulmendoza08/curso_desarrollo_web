@@ -1,0 +1,47 @@
+/*Selector*/
+
+
+/*clases*/
+.main-parrafo {
+    color: blue;
+}
+
+/*ID*/
+
+#parrafo {
+    color: crimson;
+}
+
+/*class , pseudo elemento y pseudo clases*/
+
+.main-nav {
+    background-color: darkcyan;
+    margin-top: 10px;
+    padding-inline-start: 0;
+    list-style: none;
+}
+.main-nav__item {
+    display: inline-block;
+}
+/*Ser especifico en css*/
+.main-nav__item a{
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+/*pseudo clase (funcionalidades)*/
+
+.main-nav__item a:hover{
+    color: blue;
+}
+.main-nav__item a:active{
+    color: red;
+}
+
+/*pseudo elemento*/
+
+
+.main-nav__item a::after{
+    content: " | ";
+}
